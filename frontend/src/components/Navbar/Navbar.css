@@ -1,0 +1,60 @@
+.navbar{
+    padding:20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 100px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #674636;
+    font-size: 20px;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 40px;
+    align-items: center ;
+}
+.navbar-right .signin{
+    display: flex;
+    gap: 20px;
+}
+.navbar-right .dark-bg-btn{
+    background-color: #674636;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar-right .dark-bg-btn:hover{
+    background-color: #4d3524;
+    transition: 0.5s;
+}
+
+.navbar-right .signin .no-bg-btn {
+    background-color: transparent;
+    border: none;
+    color: #674636;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.navbar-right .signin .straigt-line {
+    font-size: 30px;
+    padding:0;
+    border: none;
+    color: #674636;
+}
+.navbar-menu .active{
+    padding-bottom: 3px;
+    border-bottom: 3px solid #674636;
+}
+.navbar li{
+    cursor: pointer;
+}
