@@ -1,0 +1,45 @@
+.ad-banner{
+    position: relative;
+    display: inline-block;
+    animation: fadeIn 3s;
+}
+.ad-banner img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .ad-banner-contents {
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    border-radius: 5px; 
+  }
+  .ad-banner-contents h2 {
+    font-family: Sansita Swashed; 
+    font-size: 80px; 
+    color: white; 
+    font-weight: bold; 
+  }
+    .ad-banner-contents p {
+        margin: 20px 0;
+        font-family: Pontano Sans; 
+        font-size: 20px; 
+        color: white; 
+        font-weight: lighter; 
+        line-height: 40px;
+    }
+    .ad-banner-contents button {
+        margin: 20px 0;
+        background-color: #674636; 
+        color: white; 
+        padding: 5px 20px 5px 20px; 
+        border-radius: 10px; 
+        font-size: 20px; 
+        cursor: pointer; 
+    }
+
